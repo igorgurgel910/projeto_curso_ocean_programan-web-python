@@ -25,30 +25,29 @@ Avaliação do curso:<br>
 Detalhamento das atividades:
 
 ### Aula 01 - 2023/02/13<br>
-Nesta aula, conhecemos um pouco sobre GitHub, criando repositório e o professor utilizou gitpod.io para gerenciar a aula.
-Foi utilizado o comando pip install flask para instalar essa biblioteca, depois criado um arquivo app.py simples para testar o comando "Hello World".
-Foi orientado abrir localhost:5000
-Mas não foi possível realizar estas tarefas via VSC desktop.
+Nesta aula, conhecemos um pouco sobre GitHub, criando repositório e o professor utilizou gitpod.io para gerenciar a aula.<br>
+Foi utilizado o comando pip install flask para instalar essa biblioteca, depois criado um arquivo app.py simples para testar o comando "Hello World".<br>
+Foi orientado abrir localhost:5000<br>
+Mas não foi possível realizar estas tarefas via VSC desktop.<br>
 
 ### Aula 02 - 2023/02/14<br>
-Abri o link do repositório no gitpod.io/#
-instalar:
-  pip install flask
-  pip install python-dotenv
-  pip freeze> requirements.txt
-Criar arquivo '.flaskenv' sem extensão // para executar automático no browser
-Usando comandos 'flask run' para rodar
-Abrir pasta 'templates'
-Criar arquivo 'exibir_entradas.html'
-Editar tags HTML <>
-    <html> é principal
-    <head> cabeça onde ficam os meta dados
-    <body> onde aparece no corpo da página
-    <h1> título
-    <h2> subtítulo
-    <p> parágrado
-    <title> escreve o título
-    <div> agrupar
-
-
-    
+Abri o link do repositório no gitpod.io/#<br>
+instalar:<br>
+  pip install flask<br>
+  pip install python-dotenv<br>
+  pip freeze> requirements.txt<br>
+Criar arquivo '.flaskenv' sem extensão // para executar automático no browser<br>
+Usando comandos 'flask run' para rodar<br>
+Abrir pasta 'templates'<br>
+Criar arquivo 'exibir_entradas.html'<br>
+Editar tags HTML <><br>
+    html    é principal<br>
+    head    cabeça onde ficam os meta dados<br>
+    body    onde aparece no corpo da página<br>
+    h1      título<br>
+    h2      subtítulo<br>
+    p       parágrado<br>
+    title   escreve o título<br>
+    div     agrupar<br>
+<br>
+Link da atividade: http://turing.com.br/material/flask/tutorial/templates.html<br>
