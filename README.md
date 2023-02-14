@@ -29,3 +29,5 @@ Nesta aula, conhecemos um pouco sobre GitHub, criando repositório e o professor
 Foi utilizado o comando pip install flask para instalar essa biblioteca, depois criado um arquivo app.py simples para testar o comando "Hello World".
 Foi orientado abrir localhost:5000
 Mas não foi possível realizar estas tarefas via VSC desktop.
+
+### Aula 02 - 2023/02/14<br>
