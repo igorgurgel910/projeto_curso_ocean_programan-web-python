@@ -11,12 +11,17 @@ posts = [
     {
         "titulo": "Post 2",
         "texto": "Meu primeiro Post"
+    },
+    {
+        "titulo": "Post 3",
+        "texto": "New Post"
     }
+
 ]
 
 @app.route("/")
 def exibir_entradas():
-    return render_template("exibir_entradas.html")
+    return render_template("exibir_entradas.html", entradas=posts)
 
 @app.route("/pudim")
 def pudim():

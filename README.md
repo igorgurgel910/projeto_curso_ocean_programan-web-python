@@ -40,3 +40,15 @@ Criar arquivo '.flaskenv' sem extensão // para executar automático no browser
 Usando comandos 'flask run' para rodar
 Abrir pasta 'templates'
 Criar arquivo 'exibir_entradas.html'
+Editar tags HTML <>
+    <html> é principal
+    <head> cabeça onde ficam os meta dados
+    <body> onde aparece no corpo da página
+    <h1> título
+    <h2> subtítulo
+    <p> parágrado
+    <title> escreve o título
+    <div> agrupar
+
+
+    
