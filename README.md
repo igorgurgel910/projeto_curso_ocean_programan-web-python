@@ -31,3 +31,12 @@ Foi orientado abrir localhost:5000
 Mas não foi possível realizar estas tarefas via VSC desktop.
 
 ### Aula 02 - 2023/02/14<br>
+Abri o link do repositório no gitpod.io/#
+instalar:
+  pip install flask
+  pip install python-dotenv
+  pip freeze> requirements.txt
+Criar arquivo '.flaskenv' sem extensão // para executar automático no browser
+Usando comandos 'flask run' para rodar
+Abrir pasta 'templates'
+Criar arquivo 'exibir_entradas.html'
