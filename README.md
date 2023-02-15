@@ -49,5 +49,14 @@ Editar tags HTML <><br>
     p       parágrado<br>
     title   escreve o título<br>
     div     agrupar<br>
+    a       serve para fazer link (ancora)
 <br>
 Link da atividade: http://turing.com.br/material/flask/tutorial/templates.html<br>
+
+### Aula 03 - 2023/02/15<br>
+Abri o link do repositório no gitpod.io/#<br>
+instalar tudo novamente porque é ambiente virtual:<br>
+  pip install flask<br>
+  pip install python-dotenv<br>
+  pip install -r requirements.txt
+Criar rota de login e direcionar a pagina pelo layout

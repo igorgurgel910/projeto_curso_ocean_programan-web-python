@@ -1,6 +1,9 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect, url_for, session
 
 app = Flask("__name__")
+
+SECRET_KEY = "pudim"
+app.config.from_object(__name__)
 
 # POSTS MOCK - simulação da página antes de criar o banco de dados, algo de mentira que utiliza para fazer testes
 posts = [
@@ -19,10 +22,22 @@ posts = [
 
 ]
 
-@app.route("/")
+# USER MOCKS
+USERNAME = "admin"
+PASSWORD = "admin"
+
+@app.route('/')
 def exibir_entradas():
     return render_template("exibir_entradas.html", entradas=posts)
 
-@app.route("/pudim")
-def pudim():
-    return "<h1>eu gosto de pudim</h1>"
+@app.route('/login', methods=["GET", "POST"])
+def login():
+    erro = ""
+    if request.method == "POST":
+        if request.form ['username'] == USERNAME and request.form['password'] == PASSWORD:
+            session['logado'] = True
+            return redirect(url_for('exibir_entradas'))
+        erro = "Usuário ou senha inválidos"
+    return render_template("login.html", erro=erro)
+
+
