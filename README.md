@@ -52,25 +52,26 @@ Editar tags HTML <><br>
     a       serve para fazer link (ancora)
 <br>
 Link da atividade: http://turing.com.br/material/flask/tutorial/templates.html<br>
-
-Salvar no Git:
-  git add .
-  git commit -m "commit"
-  git push
+<br>
+Salvar no Git:<br>
+  git add .<br>
+  git commit -m "commit"<br>
+  git push<br>
+<br>
 
 ### Aula 03 - 2023/02/15<br>
 Abri o link do repositório no gitpod.io/#<br>
 instalar tudo novamente porque é ambiente virtual:<br>
   pip install flask<br>
   pip install python-dotenv<br>
-  pip install -r requirements.txt
-Criar rota de login e direcionar a pagina pelo layout
-
-Instalar o banco de dados de forma local:
-  sqlite3 --version 
-Criou arquivo do banco SQL
-Rodou o comando no temrinal - Operador do terminal de bash (shell script):
-  sqlite3 blog.bd < esquema.sql
-
-Inserir manualmente  no banco de dados pelo terminal
-sqlite3 blog.bd "INSERT INTO entradas(titulo, texto) VALUES ('Post 1', 'Inserido com sqlite3');"
+  pip install -r requirements.txt<br>
+Criar rota de login e direcionar a pagina pelo layout<br>
+<br>
+Instalar o banco de dados de forma local:<br>
+  sqlite3 --version <br>
+Criou arquivo do banco SQL<br>
+Rodou o comando no temrinal - Operador do terminal de bash (shell script):<br>
+  sqlite3 blog.bd < esquema.sql<br>
+<br>
+Inserir manualmente  no banco de dados pelo terminal<br>
+sqlite3 blog.bd "INSERT INTO entradas(titulo, texto) VALUES ('Post 1', 'Inserido com sqlite3');"<br>
