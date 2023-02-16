@@ -53,6 +53,11 @@ Editar tags HTML <><br>
 <br>
 Link da atividade: http://turing.com.br/material/flask/tutorial/templates.html<br>
 
+Salvar no Git:
+  git add .
+  git commit -m "commit"
+  git push
+
 ### Aula 03 - 2023/02/15<br>
 Abri o link do repositório no gitpod.io/#<br>
 instalar tudo novamente porque é ambiente virtual:<br>
@@ -60,3 +65,12 @@ instalar tudo novamente porque é ambiente virtual:<br>
   pip install python-dotenv<br>
   pip install -r requirements.txt
 Criar rota de login e direcionar a pagina pelo layout
+
+Instalar o banco de dados de forma local:
+  sqlite3 --version 
+Criou arquivo do banco SQL
+Rodou o comando no temrinal - Operador do terminal de bash (shell script):
+  sqlite3 blog.bd < esquema.sql
+
+Inserir manualmente  no banco de dados pelo terminal
+sqlite3 blog.bd "INSERT INTO entradas(titulo, texto) VALUES ('Post 1', 'Inserido com sqlite3');"
